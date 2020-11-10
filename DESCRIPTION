@@ -1,14 +1,35 @@
-Package: intervals
-Version: 0.15.2
-Date: 2015-12-13
 Type: Package
+Package: intervals
 Title: Tools for Working with Points and Intervals
-Author: Richard Bourgon <bourgon.richard@gene.com>
-Maintainer: Edzer Pebesma <edzer.pebesma@uni-muenster.de>
-Depends: R (>= 2.9.0)
-Imports: utils, graphics, methods
-Description: Tools for working with and comparing sets of points and intervals.
+Version: 0.15.2.9000
+Authors@R: 
+    c(person(given = "Richard",
+             family = "Bourgon",
+             role = "aut",
+             email = "bourgon.richard@gene.com"),
+      person(given = "Edzer",
+             family = "Pebesma",
+             role = c("aut", "cre"),
+             email = "edzer.pebesma@uni-muenster.de"),
+      person(given = "Alfredo",
+             family = "Hernández",
+             role = "ctb",
+             email = "aldomann.designs@gmail.com",
+             comment = c(ORCID = "0000-0002-2660-4545")),
+      person(given = "Ruth",
+             family = "Kristianingsih",
+             role = "ctb",
+             comment = c(ORCID = "0000-0003-1873-6203")))
+Description: Tools for working with and comparing sets of points
+    and intervals.
 License: Artistic-2.0
-LazyLoad: yes
 URL: http://github.com/edzer/intervals
+Depends: 
+    R (>= 2.9.0)
+Imports: 
+    graphics,
+    methods,
+    utils
+Encoding: UTF-8
+LazyLoad: yes
 NeedsCompilation: yes
